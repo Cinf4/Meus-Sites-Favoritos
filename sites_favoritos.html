@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus sites favoritos</title>
+
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilização geral da página */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #1f2937;
+            color: #ffffff;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            font-size: 2rem;
+        }
+
+        /* Conteúdo principal */
+        main {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Seção dos sites favoritos */
+        .sites-favoritos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+        }
+
+        /* Card de cada site */
+        article {
+            background-color: #ffffff;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        article:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+        }
+
+        article h2 {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            color: #111827;
+        }
+
+        article img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        article a {
+            display: inline-block;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #2563eb;
+            padding: 10px 16px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        article a:hover {
+            background-color: #1d4ed8;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1f2937;
+            color: #ffffff;
+            margin-top: 40px;
+        }
+
+        /* Ajuste para telas menores */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+
+            main {
+                margin: 25px auto;
+            }
+
+            article {
+                padding: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho principal da página -->
+    <header>
+        <h1>Meus sites favoritos: Gabriel Prata</h1>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <section class="sites-favoritos" aria-label="Lista de sites favoritos">
+
+            <!-- Site 1 -->
+            <article>
+                <h2>YouTube</h2>
+                <img 
+                    <img src="img/youtube.png" alt="Logo do YouTube"
+                    alt="Imagem representativa do site YouTube"
+                >
+                <a 
+                    href="https://www.youtube.com/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
+                    Acessar YouTube
+                </a>
+            </article>
+
+            <!-- Site 2 -->
+            <article>
+                <h2>Brave</h2>
+                <img 
+                    <img src="img/brave.png" alt="Logo do navegador Brave"
+                    art="Imagem representativa do navegador Brave"
+                >
+                <a 
+                    href="https://brave.com/pt-br/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
+                    Acessar Brave
+                </a>
+            </article>
+
+            <!-- Site 3 -->
+            <article>
+                <h2>Taiyō</h2>
+                <img 
+                    <img src="img/tayo.png" alt="Logo do site Taiyō"
+                    alt="Imagem representativa do site de mangás Taiyō"
+                >
+                <a 
+                    href="https://taiyo.moe/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
+                    Acessar Taiyō
+                </a>
+            </article>
+
+            <!-- Site 4 -->
+            <article>
+                <h2>HBO Max</h2>
+                <img 
+                    <img src="img/hbomax.png" alt="Logo da HBO Max"
+                    alt="Imagem representativa do site HBO Max"
+                >
+                <a 
+                    href="https://www.hbomax.com/br/pt" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
+                    Acessar HBO Max
+                </a>
+            </article>
+
+            <!-- Site 5 -->
+            <article>
+                <h2>Xbox Cloud Gaming</h2>
+                <img 
+                    <img src="img/xbox.png" alt="Logo do Xbox Cloud Gaming"
+                    alt="Imagem representativa do Xbox Cloud Gaming"
+                >
+                <a 
+                    href="https://www.xbox.com/pt-BR/play" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
+                    Acessar Xbox Cloud Gaming
+                </a>
+            </article>
+
+        </section>
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer>
+        <p>Desenvolvido para a atividade de HTML5 e CSS3.</p>
+    </footer>
+
+</body>
+</html>
