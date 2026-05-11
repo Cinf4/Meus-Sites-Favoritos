@@ -20,5 +20,4 @@ O projeto foi desenvolvido sem o uso de frameworks, bibliotecas externas ou Java
 
 ---
 
-![Imagem ilustrativa de tecnologia 
-([https://imgs.search.brave.com/ghrKAtV07FVuSCL7CyWB4gvqLGwARvsMDUzHb89hIoo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5nYWxsLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxNi8w/Ny9BbmltZS1Eb3du/bG9hZC1QTkcucG5n]
+
